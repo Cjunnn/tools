@@ -2,6 +2,7 @@
 FTPDIR=/home/chenj/ftp
 BASHDIR=/home/chenj/bash/
 FILENAME=ubantuIp.txt
+SCRIPTNAME=$0
 
 if mount|grep curlftpfs > /dev/null; then
 	sudo fusermount -u $FTPDIR
